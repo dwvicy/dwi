@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>dwi</title>
-        <link rel="icon" href="/favicon.ico" />
+        <a rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -20,40 +20,40 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <Link href="/projects" className={styles.card}>
+          <a href="https://github.com/dwvicy" className={styles.card}>
             <a><h3>Stuff I built &rarr;</h3></a>
-          </Link>
+          </a>
 
-          <Link href="/blogs" className={styles.card}>
+          <a href="https://medium.com/@vaishdw2207" className={styles.card}>
             <a><h3>Stuff I wrote &rarr;</h3></a>
             
-          </Link>
+          </a>
 
-          <Link
-            href="/accolades"
+          <a
+            href="https://www.linkedin.com/in/vaishnavi-dwivedi-0b4207114/"
             className={styles.card}
           >
             <a><h3>Stuff I achieved &rarr;</h3></a>
-          </Link>
+          </a>
 
-          <Link
+          <a
             href="https://vaishnavidwivedi.me/developers-guide"
             className={styles.card}
           >
             <a><h3>Developers' Guide &rarr;</h3></a>
-          </Link>
+          </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <Link
+        <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </Link>
+        </a>
       </footer>
     </div>
   )
