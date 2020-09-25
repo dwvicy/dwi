@@ -21,11 +21,11 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="/projects" className={styles.card}>
-            <h3>Stuff I built &rarr;</h3>
+            <a><h3>Stuff I built &rarr;</h3></a>
           </Link>
 
           <Link href="/blogs" className={styles.card}>
-            <h3>Stuff I wrote &rarr;</h3>
+            <a><h3>Stuff I wrote &rarr;</h3></a>
             
           </Link>
 
@@ -33,14 +33,14 @@ export default function Home() {
             href="/accolades"
             className={styles.card}
           >
-            <h3>Stuff I achieved &rarr;</h3>
+            <a><h3>Stuff I achieved &rarr;</h3></a>
           </Link>
 
           <Link
             href="https://vaishnavidwivedi.me/developers-guide"
             className={styles.card}
           >
-            <h3>Developers' Guide &rarr;</h3>
+            <a><h3>Developers' Guide &rarr;</h3></a>
           </Link>
         </div>
       </main>
